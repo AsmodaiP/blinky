@@ -1,0 +1,266 @@
+/* Blinky — русская локализация. Ключ — английский текст. */
+
+/* Menu bar */
+"Next break in %@" = "До перерыва %@";
+"Postponed — %@" = "Отложено — %@";
+"Break — %@ left" = "Перерыв, осталось %@";
+"Today: %d done · %d skipped · %d snoozed" = "Сегодня: %d сделано · %d пропущено · %d отложено";
+"%@ · switch in %d min" = "%@ · сменить через %d мин";
+"I sat down" = "Я сел";
+"I stood up" = "Я встал";
+"Break now" = "Перерыв сейчас";
+"Snooze 15 minutes" = "Отложить на 15 минут";
+"Skip next break" = "Пропустить следующий";
+"I’m in a call" = "Я на созвоне";
+"Quiet mode" = "Тихий режим";
+"Resume" = "Возобновить";
+"Pause" = "Пауза";
+"30 minutes" = "30 минут";
+"1 hour" = "1 час";
+"2 hours" = "2 часа";
+"Until tomorrow" = "До завтра";
+"Show blink reminder" = "Показать моргание";
+"Show posture reminder" = "Показать осанку";
+"Settings…" = "Настройки…";
+"Quit Blinky" = "Выйти из Blinky";
+"Blinky Settings" = "Настройки Blinky";
+
+/* Activities */
+"Call" = "Созвон";
+"Screen sharing" = "Показ экрана";
+"Video" = "Видео";
+"Game" = "Игра";
+"Focus app" = "Фокус";
+"camera" = "камера";
+"manual" = "вручную";
+"calendar" = "календарь";
+"Meeting" = "Встреча";
+
+/* Hotkeys */
+"Pause 30 min / resume" = "Пауза 30 мин / возобновить";
+"Snooze 15 min" = "Отложить на 15 мин";
+"“I’m in a call”" = "«Я на созвоне»";
+"Stood up / sat down" = "Встал / сел";
+
+/* Posture */
+"Standing %d min" = "Стою %d мин";
+"Sitting %d min" = "Сижу %d мин";
+"Walk around the room for a couple of minutes" = "Пройдись по комнате пару минут";
+"15 calf raises — a pump for your leg veins" = "15 подъёмов на носки — насос для вен ног";
+"10 slow squats" = "10 спокойных приседаний";
+"Roll your shoulders back, then forward" = "Круги плечами назад, потом вперёд";
+"Go get some water" = "Сходи за водой";
+"Calf stretch: step back, heel down, 20 s per leg" = "Растяни икры: шаг назад, пятку в пол, по 20 с на ногу";
+"Tilt your head to each shoulder, slowly" = "Наклоны головы к плечам, медленно";
+"Standing torso twists, hands on hips" = "Повороты корпуса стоя, руки на поясе";
+"Reach up on your toes, then lower down" = "Потянись вверх на носках и опустись";
+"Walk for a minute before sitting down" = "Пройдись минуту перед тем как сесть";
+
+/* Scheduler messages */
+"Paused until %@" = "Пауза до %@";
+"Outside working hours" = "Вне рабочих часов";
+"You were away — timer reset" = "Ты отошёл — таймер сброшен";
+"Break a bit early" = "Перерыв пораньше";
+"“%@” starts soon" = "Скоро «%@»";
+"Break will wait" = "Перерыв подождёт";
+"a short delay after the activity" = "дам пару минут после активности";
+"Delay after activity" = "Пауза после активности";
+"In a call" = "Режим «на созвоне»";
+"Call ended" = "Созвон закончен";
+"Breaks and reminders are on hold" = "Перерывы и напоминания отложены";
+"Breaks are back on schedule" = "Перерывы снова по расписанию";
+"Normal mode" = "Обычный режим";
+"Gentle breaks, no full screen" = "Перерывы мягкие, без полного экрана";
+"Full-screen breaks are back" = "Перерывы снова на весь экран";
+"You’re standing" = "Стоишь";
+"You’re sitting" = "Сидишь";
+"I’ll remind you to switch in %d min" = "Напомню сменить позу через %d мин";
+
+/* Break window */
+"Stand up and move" = "Встань и подвигайся";
+"Sit down — but stretch first" = "Сядь, но сначала разомнись";
+"Look at something about 20 feet (6 m) away" = "Посмотри на что-нибудь вдалеке, метрах в шести";
+"Long break — get up and stretch" = "Длинный перерыв — встань и разомнись";
+"Eye break" = "Перерыв для глаз";
+"+1 min" = "+1 мин";
+"+5 min" = "+5 мин";
+"Skip (Esc)" = "Пропустить (Esc)";
+"Skip" = "Пропустить";
+"Now" = "Сейчас";
+"Stand up and move in %lld s" = "Через %lld с — встать и подвигаться";
+"Sit down and stretch in %lld s" = "Через %lld с — сесть и размяться";
+"Break in %lld s" = "Перерыв через %lld с";
+"Blink" = "Моргни";
+"Straighten your back" = "Выпрями спину";
+"Shoulders down, screen at eye level" = "Плечи вниз, экран на уровне глаз";
+"Time to stand up" = "Пора встать";
+"Time to sit down" = "Пора сесть";
+"Long break" = "Длинный перерыв";
+"Stand up: %@" = "Встань: %@";
+"Sit down: %@" = "Сядь: %@";
+"Look away from the screen" = "Отведи взгляд от экрана";
+"Follow the dot around the circle" = "Следи за точкой по кругу";
+"Now a figure eight" = "Теперь восьмёркой";
+"Left — right" = "Влево — вправо";
+"Up — down" = "Вверх — вниз";
+"Keep your head still, move only your eyes" = "Голову не двигай, только глаза";
+"I stood up ✓" = "Встал ✓";
+"I sat down ✓" = "Сел ✓";
+"Keep sitting" = "Остаюсь сидеть";
+"Keep standing" = "Остаюсь стоять";
+"✓ Standing. Nice work" = "✓ Стоишь. Отличная работа";
+"✓ Sitting. Nice work" = "✓ Сидишь. Отличная работа";
+"I’m now:" = "Я сейчас:";
+"sitting" = "сижу";
+"standing" = "стою";
+
+/* Settings: tabs */
+"General" = "Основные";
+"Breaks" = "Перерывы";
+"Reminders" = "Напоминания";
+"Smart Pause" = "Умная пауза";
+"Look & Sound" = "Вид и звук";
+"Schedule" = "Расписание";
+"Statistics" = "Статистика";
+
+/* Settings: General */
+"Language" = "Язык";
+"System default" = "Как в системе";
+"Restart Blinky to apply the language." = "Перезапусти Blinky, чтобы сменить язык.";
+"Restart" = "Перезапустить";
+"Modules" = "Модули";
+"Turned-off modules disappear from the menu and settings." = "Выключенные модули пропадают из меню и настроек.";
+"Blink reminders" = "Напоминания моргать";
+"An animated eye in the middle of the screen every few minutes." = "Анимированный глаз в центре экрана раз в несколько минут.";
+"Posture reminders" = "Напоминания про осанку";
+"A short “straighten your back” nudge." = "Короткое «выпрями спину».";
+"Standing desk" = "Стол сидя / стоя";
+"Alternate sitting and standing; switching is part of a break." = "Чередовать «сидя» и «стоя»; смена позы — часть перерыва.";
+"Smart pause" = "Умная пауза";
+"Hold breaks during calls, screen sharing, video and games." = "Не прерывать во время созвонов, показа экрана, видео и игр.";
+"Calendar" = "Календарь";
+"Move a break before upcoming meetings." = "Сдвигать перерыв перед встречами.";
+"No access to Calendar. Allow it in System Settings → Privacy & Security → Calendars." = "Нет доступа к Календарю. Разреши его в Системных настройках → Конфиденциальность и безопасность → Календари.";
+"Eye exercises" = "Упражнения для глаз";
+"Follow-the-dot exercises at the start of long breaks." = "Следить за точкой в начале длинного перерыва.";
+"Pause music" = "Пауза музыки";
+"Pause what’s playing during a break and resume afterwards." = "Ставить музыку на паузу на время перерыва и возобновлять после.";
+"Daily and weekly break statistics." = "Статистика перерывов за день и неделю.";
+"Global hotkeys" = "Глобальные горячие клавиши";
+"⌃⌥⌘ shortcuts for the most common actions." = "Сочетания ⌃⌥⌘ для частых действий.";
+"System" = "Система";
+"Launch at login" = "Запускать при входе";
+
+/* Settings: Breaks */
+"Short break" = "Короткий перерыв";
+"Every %lld min" = "Каждые %lld мин";
+"Lasts %lld s" = "Длится %lld с";
+"Message" = "Текст на экране";
+"Off" = "Выключен";
+"Every %lld breaks" = "Каждый %lld-й перерыв";
+"Lasts %lld min" = "Длится %lld мин";
+"Less annoying" = "Чтобы не раздражало";
+"No heads-up" = "Без предупреждения";
+"Heads-up %lld s before" = "Предупреждать за %lld с";
+"Wait for a pause in typing (up to 20 s)" = "Ждать паузы в наборе текста (до 20 с)";
+"Unlimited snoozes" = "Откладывать без лимита";
+"Up to %lld snoozes a day" = "Откладывать не больше %lld раз в день";
+"Strict mode: breaks can’t be skipped" = "Строгий режим: нельзя пропустить";
+"Stand up after %lld min sitting" = "Встать после %lld мин сидя";
+"Sit down after %lld min standing" = "Сесть после %lld мин стоя";
+"Movement when switching: %@" = "Движение при смене позы: %@";
+"Switching posture comes as a break: press “I stood up ✓” or “I sat down ✓”. If an eye break is close, they are merged. ⌃⌥⌘U switches posture manually." = "Смена позы приходит как перерыв: нажми «Встал ✓» или «Сел ✓». Если рядом перерыв для глаз — они объединяются. ⌃⌥⌘U — переключить позу вручную.";
+
+/* Settings: Reminders */
+"Blinking" = "Моргание";
+"Style" = "Стиль";
+"Eye in the center" = "Глаз в центре экрана";
+"Soft glow around the edges" = "Тихое свечение по краю";
+"Preview" = "Показать";
+"Posture" = "Осанка";
+"Reminders are not shown during calls, video, games or right before a break. You can click through them." = "Напоминания не показываются во время созвонов, видео, игр и прямо перед перерывом. Сквозь них можно кликать.";
+
+/* Settings: Smart pause */
+"Right now" = "Сейчас";
+"Microphone" = "Микрофон";
+"Camera" = "Камера";
+"on" = "включена";
+"Keeping the display awake" = "Держат экран";
+"active" = "идёт";
+"Paused because of" = "Пауза из-за";
+"Calls" = "Созвоны";
+"An app is using the microphone" = "Микрофон занят приложением";
+"The camera is on" = "Камера включена";
+"Not a call (dictation and similar apps)" = "Не считать созвоном (диктовка и т.п.)";
+"Screen sharing and recording" = "Показ и запись экрана";
+"Don’t interrupt while the screen is shared or recorded" = "Не прерывать, пока экран показывают или записывают";
+"Video and media players" = "Видео и плееры";
+"Only when the player is in front" = "Только если плеер на переднем плане";
+"Ignore" = "Игнорировать";
+"Games and focus" = "Игры и работа";
+"Full-screen games" = "Полноэкранные игры";
+"Quiet mode now (gentle breaks)" = "Тихий режим сейчас (мягкие перерывы)";
+"Gentle breaks while a Focus is on" = "Мягкие перерывы, когда включён режим Фокуса";
+"Allow reading Focus status" = "Разрешить читать статус Фокуса";
+"Focus and quiet mode" = "Фокус и тихий режим";
+"If macOS doesn’t share Focus status, create a Shortcuts automation: when a Focus turns on, open the URL blinky://quiet/on; when it turns off, blinky://quiet/off." = "Если macOS не даёт статус Фокуса, сделай в «Командах» автоматизацию: при включении Фокуса — «Открыть URL» blinky://quiet/on, при выключении — blinky://quiet/off.";
+"After an activity" = "После активности";
+"Break right away" = "Перерыв сразу";
+"Wait %lld min" = "Подождать %lld мин";
+"Show “break will wait”" = "Показывать «перерыв подождёт»";
+"Away for %lld min counts as a break" = "Отошёл на %lld мин — считать перерывом";
+"Add…" = "Добавить…";
+"Active now" = "Сейчас активны";
+"Running apps" = "Запущенные приложения";
+"Focus apps" = "Приложения глубокой работы";
+"Full screen" = "На весь экран";
+"In front" = "На переднем плане";
+"Just open" = "Просто открыто";
+
+/* Settings: Schedule */
+"Working hours" = "Рабочие часы";
+"Only during working hours" = "Работать только в рабочие часы";
+"Start" = "Начало";
+"End" = "Конец";
+"Take the break early if a meeting starts within %lld min" = "Перерыв пораньше, если встреча через %lld мин";
+"A meeting with attendees counts as a call, even without the mic" = "Встреча с участниками = созвон, даже без микрофона";
+
+/* Settings: Look & Sound */
+"Break window" = "Вид перерыва";
+"Gentle — a card in the corner" = "Мягкий — карточка в углу";
+"Background" = "Фон";
+"Gradient" = "Градиент";
+"Desktop wallpaper" = "Обои рабочего стола";
+"Custom image" = "Своя картинка";
+"Not selected" = "Не выбрана";
+"Choose…" = "Выбрать…";
+"Sounds" = "Звуки";
+"At the start" = "В начале";
+"At the end" = "В конце";
+"None" = "Без звука";
+"Shortcut at the start" = "Команда в начале";
+"Shortcut at the end" = "Команда в конце";
+"Shortcut name" = "Название из «Команд»";
+"Automation" = "Автоматизация";
+"Runs a shortcut from the Shortcuts app, e.g. to dim the lights or turn on Do Not Disturb." = "Запускает команду из приложения «Команды», например чтобы приглушить свет или включить «Не беспокоить».";
+
+/* Settings: Statistics */
+"Done" = "Сделано";
+"Skipped" = "Пропущено";
+"%d h %02d min" = "%d ч %02d мин";
+"Today" = "Сегодня";
+"Breaks taken" = "Перерывов сделано";
+"Skipped / snoozed" = "Пропущено / отложено";
+"Stepped away on your own" = "Сам отходил";
+"Screen time" = "За экраном";
+"Standing" = "Стоя";
+"Posture switches" = "Смен позы";
+"Day" = "День";
+"Type" = "Тип";
+"Good-day streak" = "Серия хороших дней";
+"Average screen time" = "В среднем за экраном";
+"%d h a day" = "%d ч в день";
+"Average standing" = "В среднем стоя";
+"%d min a day" = "%d мин в день";
+"This week" = "Неделя";
+"A good day means at least 80% of breaks taken. Days without work don’t break the streak." = "Хороший день — сделано не меньше 80% перерывов. Дни без работы серию не рвут.";

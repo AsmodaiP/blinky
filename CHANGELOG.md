@@ -1,5 +1,9 @@
 # Changelog
 
+## Unreleased
+
+- Fix: the settings window re-rendered every second, even after it was closed, and could spin up to ~80% CPU over a long session. Idle CPU is back to ~0.05% with the window open or closed.
+
 ## 0.3.0 — first public release
 
 - English and Russian localization, language picker in Settings → General.

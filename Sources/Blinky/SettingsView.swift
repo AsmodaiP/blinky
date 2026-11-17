@@ -4,7 +4,7 @@ import ServiceManagement
 import SwiftUI
 
 struct SettingsView: View {
-    @ObservedObject var scheduler: Scheduler
+    let scheduler: Scheduler
     @AppStorage(K.blinkEnabled) var blink = true
     @AppStorage(K.postureEnabled) var posture = false
     @AppStorage(K.smartPause) var smartPause = true

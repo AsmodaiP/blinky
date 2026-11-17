@@ -28,7 +28,7 @@ struct BlinkyMain {
 }
 
 @MainActor
-final class AppDelegate: NSObject, NSApplicationDelegate, NSMenuDelegate {
+final class AppDelegate: NSObject, NSApplicationDelegate, NSMenuDelegate, NSWindowDelegate {
     private var item: NSStatusItem!
     private var settingsWindow: NSWindow?
     private var lastSymbol = ""
@@ -183,6 +183,14 @@ final class AppDelegate: NSObject, NSApplicationDelegate, NSMenuDelegate {
     @objc private func testPosture() { scheduler.testPosture() }
     @objc private func quit() { NSApp.terminate(nil) }
 
+    /// Drop the settings window when it closes: a hidden SwiftUI hierarchy keeps
+    /// reacting to state changes and burning CPU.
+    func windowWillClose(_ notification: Notification) {
+        guard let w = notification.object as? NSWindow, w === settingsWindow else { return }
+        w.contentViewController = nil
+        settingsWindow = nil
+    }
+
     @objc private func openSettings() {
         if settingsWindow == nil {
             let w = NSWindow(contentRect: NSRect(x: 0, y: 0, width: 600, height: 620),
@@ -190,6 +198,7 @@ final class AppDelegate: NSObject, NSApplicationDelegate, NSMenuDelegate {
             w.title = L("Blinky Settings")
             w.contentViewController = NSHostingController(rootView: SettingsView(scheduler: scheduler))
             w.isReleasedWhenClosed = false
+            w.delegate = self
             w.center()
             settingsWindow = w
         }

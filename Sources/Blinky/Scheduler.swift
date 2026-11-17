@@ -17,7 +17,9 @@ final class Scheduler: ObservableObject {
         case onBreak(Int)
     }
 
-    @Published private(set) var display: Display = .countdown(0)
+    /// Not @Published on purpose: it changes every second and only the menu bar
+    /// reads it (through `onUpdate`). Publishing it re-rendered the settings window each tick.
+    private(set) var display: Display = .countdown(0)
     @Published private(set) var snapshot = Snapshot()
     var onUpdate: (() -> Void)?
 
@@ -95,7 +97,7 @@ final class Scheduler: ObservableObject {
             s.activities.append(Activity(kind: .meeting, app: e.title ?? L("calendar")))
         }
         s.calendarEvent = CalendarWatch.nextEventText()
-        snapshot = s
+        if s != snapshot { snapshot = s }
     }
 
     // MARK: Tick

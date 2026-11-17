@@ -24,7 +24,7 @@ struct Activity: Equatable {
 }
 
 /// Snapshot of detector state (plus raw data for debugging in settings).
-struct Snapshot {
+struct Snapshot: Equatable {
     var activities: [Activity] = []
     var micUsers: [ProcOwner] = []       // everything recording the mic, including excluded apps
     var cameraOn = false
